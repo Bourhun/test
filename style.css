@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.menu{
+	background-color: green;
+
+}
+.mid{
+	width: 80%;
+	margin: auto;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	position: relative;
+
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 8px 10px;
+	display: inline-block;
+	font-size: 18px;
+	border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover{
+	color: green;
+	background-color: white;
+	border-bottom: 2px solid green;
+
+
+
+}
+.menu ul li ul li{
+	display: block;
+	transition: 2s;
+}
+.menu ul li ul{
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	display: none;
+	background: green;
+
+}
+.menu ul li:hover ul{
+	display: block;
+}
+.menu ul li ul li:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+	
+
+
+
+
+
+.slider {
+	width: 1000px;
+	height: 500px;
+	background-image: url('img/001.jpg');
+	margin: 0px auto;
+	border: 10px solid pink;
+	box-shadow: 0px 0px 5px #333;
+	background-size: 100% 100%;
+
+	animation: slider 8s infinite ;
+}
+
+@keyframes slider {
+
+		
+	0%{
+		background-image: url('img/001.jpg');
+	}
+	20%{
+		background-image: url('img/002.jpg');
+	}
+	40%{
+		background-image: url('img/004.jpg');
+	}
+
+
+
+	60%{
+		background-image: url('img/003.jpg');
+
+	}
+
+	80%{
+
+		background-image: url('img/005.jpg');
+
+	}
+	100%{
+		background-image: url('img/006.jpg');
+	}
+
+}
+
+
+.contact-form {
+	width: 400px;
+	margin:100px  auto 0px; 
+	padding: 50px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 288px #000;
+	background-color: green;
+}
+
+.contact-form h2 {
+	font-family: tahoma;
+	color: #FFF;
+
+}
+
+.contact-form hr {
+	margin: 10px 0px;
+}
+
+.contact-form input {
+	display: block;
+	width: 100%;
+	padding: 7px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	border: 1px solid #000;
+	
+
+}
+
+.contact-form textarea {
+	display: block;
+	width: 100%;
+	padding: 7px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	border: 1px solid #000;
+}
+
+.contact-form input[type="submit"] {
+	background-color: green;
+	color: #FFF;
+	font-weight: bold; 
+	cursor:pointer;
+}
+
+iframe{
+	width:600px;
+	height: 400px;
+	margin-top: 20px;
+}
+
+
+
